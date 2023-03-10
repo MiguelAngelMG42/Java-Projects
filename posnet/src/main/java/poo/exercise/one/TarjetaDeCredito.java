@@ -14,4 +14,15 @@ public class TarjetaDeCredito {
         this.entidadFinanciera = entidadFinanciera;
         this.titular = titular;
     }
+
+    @Override
+    public String toString() {
+        return "TarjetaDeCredito{" +
+                "entidadBancaria='" + entidadBancaria + '\'' +
+                ", nroTarjeta='" + nroTarjeta + '\'' +
+                ", saldo=" + saldo +
+                ", entidadFinanciera=" + entidadFinanciera +
+                ", titular=" + titular +
+                '}';
+    }
 }

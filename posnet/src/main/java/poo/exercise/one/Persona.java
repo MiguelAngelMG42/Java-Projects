@@ -14,4 +14,13 @@ public class Persona {
         this.telefono = telefono;
         this.mail = mail;
     }
+
+    @Override
+    public String toString() {
+        return " DNI=" + DNI +
+                " nombre=" + nombre +
+                " apellido=" + apellido +
+                " telefono=" + telefono +
+                " mail=" + mail;
+    }
 }
